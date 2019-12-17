@@ -1,0 +1,21 @@
+﻿Ian Spooner
+17 December 2019
+Week 3 Day 2 test
+Research Questions
+
+
+1. What is the difference in Dalvik and ART
+        Dalvik is the original system for running Android apps. It is a just-in-time compiler that generates Dex bytecode. ART is the current system for running apps. It is an ahead-of-time compiler that generates Dex bytecode. Both use the DEX format, so are technically compatible, though some techniques that worked in Dalvik don’t work with ART. 
+2. What is the DEX Limit?
+        The DEX Limit of 65536 is the number of references that can be programmed into an App using the DEX format. 
+3. What are launch modes?
+Standard: launches the activity on top of the stack.
+SingleTop: If the top activity is the same then it redirects back to that activity rather than start a new one.
+SingleTask: If the activity already exists in the stack, then the intent is redirected back to that activity rather than starting a new one.
+SingleInstance: If the activity exists anywhere in the application, then the intent is redirected to that activity rather than starting a new one.  
+
+
+4. What are form factors?
+        Form factors are how different screen sizes and shapes are described. Such as wearables having a round screen, or different phones having different ratio screens and different pixel counts. 
+5. What are Layout Qualifiers?
+        Layout Qualifiers are how the OS decides which layout to inflate given certain qualifying conditions. These conditions are numerous and contain things such as day/night, layout orientation, localization, time zone, etc.
